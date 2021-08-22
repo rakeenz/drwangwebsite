@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <title>Haifeng Wang, PH.D. - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<div class="navbar">
+
+  <div class="logoandtitle"><a href=""><img src="images/msstate.png" alt="msstate" style="width:60px;height:60px;margin:10px;"></a><h1>Haifeng Wang, PH.D.</h1></div>
+  <div class="navlinks">
+    <a href="home.html" id="pointer">Home</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="news.html">News</a>
+  </div>
+  <div class="sidebarbutton" id="sidebarbutton">
+    <i class="fas fa-bars" onclick="openside()"></i>
+  </div>
+
+</div>
+
+
+
+<div class="sidebar" id="sidebar">
+  <br />
+  <div class="xbutton"><i class="fas fa-times" onclick="closeside()"></i></div>
+  <a href="home.html" >Home</a> <br /><br />
+  <a href="research.html" >Research</a> <br /><br />
+  <a href="publications.html" >Publications</a> <br /><br />
+  <a href="teaching.html" >Teaching</a> <br /><br />
+  <a href="news.html" >News</a> <br /><br />
+
+</div>
+
+<div class="body">
+
+<div class="bio">
+  <div class='profilepic'><img src="images/wang-haifengjpg-1.jpg" alt="profilepicture"></div>
+  <div class="biotext">
+    <h1 style="padding:5px;">Haifeng Wang, Ph.D.</h1>
+    <h3 style="padding:5px;">
+      Assistant Professor<br />McCain Hall, Room 260P<br />Department of Industrial and System Engineering<br />Bagley College of Engineering<br />Mississippi State University<br />PO Box 9542<br />Mississippi State, MS 39762<br />Email: wang@ise.msstate.edu<br />Work: (662) 325 3923<br />
+    </h3>
+    <div class="button"><a href="mailto:wang@ise.msstate.edu">Contact Me</a></div>
+  </div>
+</div>
+
+<div class="wordcloud"><img src="images/wordcloud-4.png" alt="wordcloud"></div>
+
+<div class="list">
+  <h1>Research Interests</h1>
+  <ul>
+    <li>Machine learning and data mining for effective decision making: information fusion, ensemble learning, and fuzzy control for detection and diagnosis; deep learning for image classification; and recurrent neural networks for sequential data predictive analysis.</li>
+    <li>Design, analysis, and optimization of complex engineering systems: discrete event simulation and agent-based modeling for complex system analysis; meta-heuristics, multi-objective evolutionary algorithms, and mixed integer programming for engineering process optimization.</li>
+    <li>Predictive dynamic control in smart manufacturing: smart electronics manufacturing using Internet of Things and machine learning; data-driven-based advanced manufacturing;  fault operations and anomaly event diagnosis in high variation manufacturing processes. </li>
+    <li>Large-scale network system pattern recognition: community detection and network dynamics for practical large scale network analysis;  temporal network for human brain functional connectivity pattern analysis.</li>
+  </ul>
+  <div class="button"><a href="research.html">Learn More</a></div>
+</div>
+
+<div class="quote"><i>"If we can really understand the problem, the answer will come out of it."</i>  - Jiddu Krishnamurti</div>
+
+</div>
+
+<script>
+
+function openside()
+{
+  document.getElementById("sidebar").style.right = "0px";
+}
+function closeside()
+{
+  document.getElementById("sidebar").style.right = "-140px";
+}
+
+</script>
+
+</body>
+
+</html>

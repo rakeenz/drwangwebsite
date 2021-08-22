@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <title>Haifeng Wang, PH.D. - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<div class="navbar">
+
+  <div class="logoandtitle"><a href=""><img src="images/msstate.png" alt="msstate" style="width:60px;height:60px;margin:10px;"></a><h1>Haifeng Wang, PH.D.</h1></div>
+  <div class="navlinks">
+    <a href="home.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="teaching.html" id="pointer">Teaching</a>
+    <a href="news.html">News</a>
+  </div>
+  <div class="sidebarbutton" id="sidebarbutton">
+    <i class="fas fa-bars" onclick="openside()"></i>
+  </div>
+
+</div>
+
+
+
+<div class="sidebar" id="sidebar">
+  <br />
+  <div class="xbutton"><i class="fas fa-times" onclick="closeside()"></i></div>
+  <a href="home.html" >Home</a> <br /><br />
+  <a href="research.html" >Research</a> <br /><br />
+  <a href="publications.html" >Publications</a> <br /><br />
+  <a href="teaching.html" >Teaching</a> <br /><br />
+  <a href="news.html" >News</a> <br /><br />
+
+</div>
+
+<div class="body">
+
+<div class="list">
+  <h1 style="margin-top:40px;">Mississippi State University</h1>
+  <h2>IE 8743: Nonlinear Programming (Spring 2021)</h2>
+  <ul style="margin-bottom:10px;">
+    <li>Convex theory</li>
+    <li>Line search</li>
+    <li>Gradient/Newton/Trust region/Quasi-Newton methods</li>
+    <li>KKT condition and duality</li>
+  </ul>
+  <h2>IE 4934/6934: Information System for Industrial Engineering (Fall 2021, Fall 2020, Spring 2020, Fall 2019)</h2>
+  <ul style="margin-bottom:40px;">
+    <li>EXCEL and VBA</li>
+    <li>Access Database</li>
+    <li>Python</li>
+  </ul>
+  <h1 style="margin-top:20px;">Binghamton University</h1>
+  <h2>SSIE 650: Systems Optimization, Teaching Assistant (Spring 2019)</h2>
+  <ul style="margin-bottom:20px;">
+    <li>Unconstrained optimization</li>
+    <li>Constrained optimization</li>
+    <li>Multiobjective optimization</li>
+    <li>Integer and discrete programming</li>
+  </ul>
+</div>
+
+</div>
+
+<script>
+
+function openside()
+{
+  document.getElementById("sidebar").style.right = "0px";
+}
+function closeside()
+{
+  document.getElementById("sidebar").style.right = "-140px";
+}
+
+</script>
+
+</body>
+
+</html>
